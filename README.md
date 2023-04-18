@@ -15,15 +15,16 @@ eval_nbt_vs_byzantine/
 ├── data/
 │   └── multiple_topos/
 │       ├── even_sampling/
-│       │   ├── true_data(no_attack_data)/
-│       │   └── attack_data/
-│       │       └── freq_topic/
-│       │           ├── path/
-│       │           └── path_attacks/
-│       │               └── attack_data/
+│       │   └── interval_sample_times/
+│       │   		├── true_data(no_attack_data)/
+│       │   		└── attack_data/
+│       │      	 	  └── freq_topic/
+│       │       	      ├── path/
+│       │        		    └── path_attacks/
+│       │                   └── attack_data/
 │       └── uneven_sampling/
-│           └── section_sample_times/
-│               ├── true_data/
+│           └── interval_sample_times/
+│               ├── true_data(no_attack_data)/
 │               └── attack_data/
 │                   └── freq_topic/
 │                       ├── path/
@@ -57,19 +58,19 @@ pip install -r requirements.txt
 
 `Code Part`
 
-- `simulation_code`: This section contains the code used for generating simulated network scenarios.
-- `diagnosis_code`: This section includes the code used for diagnosing the performance of links in the simulated scenarios.
-- `evaluation_code`: This section contains the code used for evaluating the performance of the diagnosis algorithm.
-- `analysis_code`: This section includes the code used for analyzing the data statistically and generating visual plots to facilitate interpretation.
-- `utilities`: This section contains code used to abstract the tree topology from mesh topology.
-- `example_code`: This section includes simple example code that uses `examples/statistical_analysis` to generate visualization plots.
+- `simulation_code`: This folder contains the code used for generating simulated network scenarios.
+- `diagnosis_code`: This folder includes the code used for diagnosing the performance of links in the simulated scenarios.
+- `evaluation_code`: This folder contains the code used for evaluating the performance of the diagnosis algorithm.
+- `analysis_code`: This folder includes the code used for analyzing the data statistically and generating visual plots to facilitate interpretation.
+- `utilities`: This folder contains code used to abstract the tree topology from mesh topology.
+- `example_code`: This folder includes simple example code that uses `examples/statistical_analysis` to generate visualization plots.
 
 `Data Part`
 
-- `datasets`: This section includes the utilization of datasets sourced from Topology-Zoo, as well as a tree topology set that has been abstracted from mesh topology to tree topology from Topology-Zoo.
-- `data`: This section encompasses the scenarios-simulation data, diagnosis data, and evaluation data that were collected and analyzed during the experiments.
-- `analysis`: In this section, the statistical data obtained from the `Data` folder is utilized to generate visual plots for further analysis and interpretation.
-- `examples`: This section includes sample analysis data that can be visualized using the `example_code` provided. These examples serve as illustrations of the capabilities of the code and showcase the visualization of statistical data to aid in understanding and interpretation.This part provides directly usable results that can be used as a reference or starting point for further research or analysis.
+- `datasets`: This folder includes the utilization of datasets sourced from Topology-Zoo, as well as a tree topology set that has been abstracted from mesh topology to tree topology from Topology-Zoo.
+- `data`: This folder encompasses the scenarios-simulation data, diagnosis data, and evaluation data that were collected and analyzed during the experiments.
+- `analysis`: In this folder, the statistical data obtained from the `Data` folder is utilized to generate visual plots for further analysis and interpretation.
+- `examples`: This folder includes sample analysis data that can be visualized using the `example_code` provided. These examples serve as illustrations of the capabilities of the code and showcase the visualization of statistical data to aid in understanding and interpretation.This part provides directly usable results that can be used as a reference or starting point for further research or analysis.
 
 #### Contribution
 
