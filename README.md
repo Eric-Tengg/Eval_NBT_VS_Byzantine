@@ -1,7 +1,7 @@
 # Eval_NBT_VS_Byzantine
 
 #### Introduction
-The source code for the paper "Evaluating Network Boolean Tomography Under Byzantine Attack".
+The source code for the paper `Evaluating Network Boolean Tomography Under Byzantine Attack`.
 
 This open-sourced project serves as a comprehensive resource for the source code used in the experiments presented in my paper. It encompasses replicating simulations of various scenarios, including both no-attack and Byzantine-attack scenarios. Additionally, it involves diagnosing the performance of links, evaluating the effectiveness of diagnosis algorithms, and analyzing data statistically, able to be visually represented in figures used in the paper.
 
@@ -62,15 +62,15 @@ pip install -r requirements.txt
 - `diagnosis_code`: This directory includes the code used for diagnosing the performance of links in the simulated scenarios.
 - `evaluation_code`: This directory contains the code used for evaluating the performance of the diagnosis algorithm.
 - `analysis_code`: This directory includes the code used for analyzing the data statistically and generating visual plots to facilitate interpretation.
-- `utilities`: This directory contains code used to abstract the tree topology from mesh topology.
+- `utilities`: This directory contains code used to abstract the tree topology from the mesh topology.
 - `example_code`: This directory includes simple example code that uses `examples/statistical_analysis` to generate visualization plots.
 
 `Data Part`
 
-- `datasets`: This directory includes the utilization of datasets sourced from Topology-Zoo, as well as a tree topology set that has been abstracted from mesh topology to tree topology from Topology-Zoo.
+- `datasets`: This directory includes the utilization of datasets sourced from [Topology-Zoo](http://topology-zoo.org/), as well as a tree topology set that has been abstracted from mesh topology to tree topology from `Topology-Zoo`.
 - `data`: This directory encompasses the scenarios-simulation data, diagnosis data, and evaluation data that were collected and analyzed during the experiments.
 - `analysis`: In this directory, the statistical data obtained from the `Data` directory is utilized to generate visual plots for further analysis and interpretation.
-- `examples`: This directory includes sample analysis data that can be visualized using the `example_code` provided. These examples serve as illustrations of the capabilities of the code and showcase the visualization of statistical data to aid in understanding and interpretation.This part provides directly usable results that can be used as a reference or starting point for further research or analysis.
+- `examples`: This directory includes sample analysis data that can be visualized using the `example_code` provided. These examples serve as illustrations of the capabilities of the code and showcase the visualization of statistical data to aid in understanding and interpretation. This part provides directly usable results that can be used as a reference or starting point for further research or analysis.
 
 #### Contribution
 
