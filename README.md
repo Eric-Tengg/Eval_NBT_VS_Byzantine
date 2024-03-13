@@ -1,7 +1,7 @@
 # Eval_NBT_VS_Byzantine
 
 #### Introduction
-The source code for the paper [`Evaluating Network Boolean Tomography Under Byzantine Attack`](https://ieeexplore.ieee.org/document/10436865). Here is a [poster](https://www.ddht.top/attaches/eva_byz.jpeg) for a quick start.
+The source code for the paper [Evaluating Network Boolean Tomography Under Byzantine Attack](https://ieeexplore.ieee.org/document/10436865). Here is a [poster](https://www.ddht.top/attaches/eva_byz.jpeg) for a quick start.
 
 This open-sourced project serves as a comprehensive resource for the source code used in the experiments presented in my paper. It encompasses replicating simulations of various scenarios, including both no-attack and Byzantine-attack scenarios. Additionally, it involves diagnosing the performance of links, evaluating the effectiveness of diagnosis algorithms, and analyzing data statistically, able to be visually represented in figures used in the paper.
 
